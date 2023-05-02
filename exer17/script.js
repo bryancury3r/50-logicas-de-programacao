@@ -5,6 +5,6 @@ let valor2 = parseFloat(prompt("digite:"));
 while (valor2 == 0) {
   valor2 = parseInt(prompt("digite:"));
 }
-let resultado = valor1 / valor2;
+resultado = valor1 / valor2;
 
 document.write(resultado);
