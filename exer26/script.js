@@ -1,6 +1,11 @@
-let contador = 1;
+let negativo = 0;
 
-while (contador <= 10) {
-  document.write(`${contador} <br>`);
-  contador++;
+for (let contador = 10; contador >= 1; contador--) {
+  let num = parseInt(prompt("digite um número:"));
+
+  if (num <= 0) {
+    negativo++;
+  }
 }
+
+document.write(`Teve na lista ${negativo}`);
