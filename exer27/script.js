@@ -2,7 +2,7 @@ contador = 0;
 contadorDentro = 0;
 contadorFora = 0;
 
-while (contador <= 10) {
+while (contador <= 5 - 1) {
   let num = parseInt(prompt("digite:"));
   contador++;
 
@@ -13,6 +13,6 @@ while (contador <= 10) {
   }
 }
 
-document.write(`dentro ${contadorDentro}`);
-document.write(`fora ${contadorfora}`);
+document.write(`dentro ${contadorDentro} <br>`);
+document.write(`fora ${contadorFora} <br>`);
 document.write(`contador ${contador}`);
